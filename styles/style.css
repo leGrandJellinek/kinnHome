@@ -225,4 +225,15 @@ body {
 
 }
 
+.main__presentation-item {
+    display: flex;
+    gap: 119px;
+}
+
+.main__presentation__item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Main End */
