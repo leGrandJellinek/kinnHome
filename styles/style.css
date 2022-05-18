@@ -22,6 +22,7 @@ a {
 
 body {
     font-family: 'RR';
+    background:  #FFFFEF;;
 }
 
 /* Root End */
@@ -37,6 +38,8 @@ body {
     justify-content: space-between;
     padding: 45px 20px;
     position: relative;
+    background: rgb(245, 245, 228);
+    box-shadow: 0px 2px rgb(0, 0, 0);
 
 }
 
@@ -114,7 +117,6 @@ body {
 /* Main Start */
 
 .main__MBCollection{
-    background: #FFFFEF;
     margin-bottom: 39px;
 }
 
@@ -133,12 +135,20 @@ body {
     color: #56593D;
 }
 
+.main__MBCollection-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 .main__block-item {
     max-width: 411px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 2px solid rgb(29, 27, 27);
+    padding: 15px;
+    border-radius: 10px;
 }
 
 
@@ -164,7 +174,10 @@ body {
 }
 
 .main__theEssentials {
-    background: #FFFFEF;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .main__theEssentials-block {
@@ -174,6 +187,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .main__theEssentials-img {
@@ -205,5 +219,10 @@ body {
     z-index: 2;
 }
 
+
+.main__presentation-item {
+    padding: 64px 32px;
+
+}
 
 /* Main End */
